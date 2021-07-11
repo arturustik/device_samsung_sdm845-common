@@ -30,9 +30,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.bluetooth.a2dp_offload.supported=false \
-    persist.bluetooth.a2dp_offload.disabled=true \
-    vendor.audio.feature.a2dp_offload.enable=false
+    ro.bluetooth.a2dp_offload.supported=true \
+    persist.bluetooth.a2dp_offload.disabled=false \
+    vendor.audio.feature.a2dp_offload.enable=true
 
 # Process pool
 PRODUCT_PRODUCT_PROPERTIES += \
